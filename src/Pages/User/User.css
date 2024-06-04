@@ -1,0 +1,32 @@
+#user {
+  padding: 20px;
+}
+#user table {
+  width: 100%;
+  text-align: center;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+#user table thead tr {
+  background-color: #ff2770;
+  font-style: italic;
+}
+#user table th,
+td {
+  border: 1px solid #f96a9a;
+  height: 25px;
+}
+#user table tr:nth-child(even) {
+  background-color: #f8cbda;
+}
+#user table tbody tr:nth-child(odd) {
+  background-color: #faa4c1;
+}
+#user table td {
+  height: 30px;
+}
+#user table td {
+  overflow: hidden;
+  color: #29020f;
+  text-overflow: ellipsis;
+}
