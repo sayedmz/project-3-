@@ -3,6 +3,7 @@ import "./TopBar.css";
 import { NavLink } from "react-router-dom";
 
 export const SideBar = () => {
+  const x = 10;
   return (
     <>
       <div id="sideBar">
